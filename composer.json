@@ -1,0 +1,33 @@
+{
+    "name": "innln/pay",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mysticzap",
+            "email": "mysticzap@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-bcmath": "*",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-xml": "*",
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "~6.0",
+        "mysticzap/innln": "dev-master"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {"innln\\pay\\": "src/"}
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
